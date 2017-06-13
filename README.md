@@ -21,6 +21,13 @@ Running:
 ---
 Run the project by running Main.py
 
+![some](https://github.com/AminFadaee/8_Puzzle_Solver/blob/master/ScreenShots/1.JPG)
+
+
+You can use the Randomize button to change the game board arrangement and the Solve button would solve the formation and displays the moves on the board. The time for the algorithm and the number of states are depicted as well.
+
+
+![some](https://github.com/AminFadaee/8_Puzzle_Solver/blob/master/ScreenShots/2.JPG)
 
 
 License
