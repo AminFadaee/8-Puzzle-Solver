@@ -1,5 +1,4 @@
 # 8 Puzzle Solver
----
 
 
 This project implements the A* algorithm to solve the 8 puzzle and has a graphical demonstration of the solution. 8 Puzzle Solver is implemented using Python 3.4, PyQT4 and by the help of a third party library, [fibonacci_heap_mod](https://pypi.python.org/pypi/fibonacci-heap-mod/), Authored by Daniel Richard Stromberg.
