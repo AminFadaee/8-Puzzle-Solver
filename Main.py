@@ -1,5 +1,6 @@
+from PySide6.QtWidgets import QApplication
+
 from GameBoard import Board
-from PyQt4.QtGui import *
 import sys
 # This module runs the game.
 app = QApplication(sys.argv)

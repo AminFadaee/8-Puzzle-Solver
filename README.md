@@ -8,12 +8,6 @@ Documentation
 -------------
 I am currently working on designing a detailed documentation of the project which will be available real soon.
 
-Requirements
---------
-
-* Python Version 3.4
-* PyQT4
-
 *NB: fibonacci_heap_mod is included in the project and you don't need to install it.*
 
 
@@ -21,13 +15,13 @@ Running:
 ---
 Run the project by running Main.py
 
-![some](https://github.com/AminFadaee/8_Puzzle_Solver/blob/master/ScreenShots/1.JPG)
+![some](ScreenShots/1.JPG)
 
 
 You can use the Randomize button to change the game board arrangement and the Solve button would solve the formation and displays the moves on the board. The time for the algorithm and the number of states are depicted as well.
 
 
-![some](https://github.com/AminFadaee/8_Puzzle_Solver/blob/master/ScreenShots/2.JPG)
+![some](ScreenShots/2.JPG)
 
 
 License
