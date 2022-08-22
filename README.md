@@ -8,8 +8,6 @@ Documentation
 -------------
 I am currently working on designing a detailed documentation of the project which will be available real soon.
 
-*NB: fibonacci_heap_mod is included in the project and you don't need to install it.*
-
 
 Running:
 ---
