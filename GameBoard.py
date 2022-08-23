@@ -1,7 +1,7 @@
 from PySide6.QtCore import *
 from PySide6.QtWidgets import QWidget
 
-import Gui
+from ui import Gui
 from EightPuzzle import EightPuzzle
 
 
