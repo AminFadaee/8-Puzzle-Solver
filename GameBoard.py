@@ -1,8 +1,8 @@
 from PySide6.QtCore import *
 from PySide6.QtWidgets import QWidget
 
-from EightPuzzle import EightPuzzle
 import Gui
+from EightPuzzle import EightPuzzle
 
 
 class Board(QWidget, Gui.Ui_Form):
@@ -57,6 +57,10 @@ class Board(QWidget, Gui.Ui_Form):
         self.updateLabels(len(path) - 1, round(time, 2))
         self.presentPath(path, 0)
 
+    def clear_labels(self):
+        self.movesLab.setText('')
+        self.timeLab.setText('')
+
     def updateLabels(self, pathLen, time):
         '''Updates the status labels'''
         self.movesLab.setText("Finished with {0} Moves".format(pathLen))
@@ -99,7 +103,7 @@ class Board(QWidget, Gui.Ui_Form):
     def randomizeHandler(self):
         '''btRand handler for shuffling the puzzle.'''
         self.puzzle.shufflePuzzle()
-        self.updateLabels('', '')
+        self.clear_labels()
         self.setTheBoard(self.puzzle.currentState.pattern)
 
     def toggleButtons(self):
