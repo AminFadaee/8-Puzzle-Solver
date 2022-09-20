@@ -1,25 +1,23 @@
-# 8 Puzzle Solver
+# 8 Puzzle: A* Algorithm
+Boys and girls! Gather around! Gather around! This is an A* story!
 
+![](assets/puzzle.png)
 
-This project implements the A* algorithm to solve the 8 puzzle and has a graphical demonstration of the solution. 8 Puzzle Solver is implemented using Python 3.4, PyQT4 and by the help of a third party library, [fibonacci_heap_mod](https://pypi.python.org/pypi/fibonacci-heap-mod/), Authored by Daniel Richard Stromberg.
+So when I was studying AI in my bachelor's degree, we had a chapter on search algorithms. Supposedly, A* was the coolest, meanest, best bad boy of search algorithms in town!
 
+A classic example for applying A* is the 8 Puzzle, where the numbers 1 to 8 are scattered in a grid of 3 by 3. Using the blank/empty cell, you should order the cells from 1 to 8. It is a stupid game, come to think of it, but who am I to judge?
 
-Documentation
--------------
-I am currently working on designing a detailed documentation of the project which will be available real soon.
+This project implements the A* algorithm to solve the 8 puzzle and has a graphical demonstration of the solution. 8 Puzzle Solver is implemented using Python and PyQT.
+
+Also, I wrote this code back in 2017. I did some minor improvements recently, but there are a lot here I am not proud of structurally. I was a kid back then! Sue me!
+
 
 
 Running:
 ---
-Run the project by running Main.py
+Just run main.py and be dazzled! Also, here is a demo.
 
-![some](ScreenShots/1.JPG)
-
-
-You can use the Randomize button to change the game board arrangement and the Solve button would solve the formation and displays the moves on the board. The time for the algorithm and the number of states are depicted as well.
-
-
-![some](ScreenShots/2.JPG)
+![](assets/puzzle.gif)
 
 
 License
@@ -27,7 +25,7 @@ License
 
 The MIT License. Copyright (c) 2017 Amin Fadaee
 
-About Author
+About Me
 ----------------
 
 [Amin Fadaee](https://www.linkedin.com/in/aminfadaee/)
