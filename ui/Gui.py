@@ -25,7 +25,7 @@ except AttributeError:
 
 class Ui_Form(object):
     def setupUi(self, Form):
-        Form.setObjectName(_fromUtf8("Form"))
+        Form.setObjectName(_fromUtf8("8 Puzzle"))
         Form.resize(165, 290)
         Form.setStyleSheet(_fromUtf8("background-color: b;"))
         self.bt1 = QPushButton(Form)
@@ -187,7 +187,7 @@ class Ui_Form(object):
         QtCore.QMetaObject.connectSlotsByName(Form)
 
     def retranslateUi(self, Form):
-        Form.setWindowTitle(_translate("Form", "Form", None))
+        Form.setWindowTitle(_translate("8 Puzzle", "8 Puzzle", None))
         self.bt1.setText(_translate("Form", "1", None))
         self.bt2.setText(_translate("Form", "2", None))
         self.bt3.setText(_translate("Form", "3", None))
