@@ -1,7 +1,7 @@
 from PySide6.QtCore import *
 from PySide6.QtWidgets import QWidget
 
-from eight_puzzle import EightPuzzle
+from game.eight_puzzle import EightPuzzle
 from ui import Gui
 
 
@@ -91,7 +91,7 @@ class Board(QWidget, Gui.Ui_Form):
         x, y = geometry_positions[destination - 1]
         w, h = self.btBlocks[block_number - 1].width(), self.btBlocks[block_number - 1].height()
         self.btBlocks[block_number - 1].setGeometry(QRect(x, y, w, h))
-        self.puzzle.currentState.swapBlocks(position, destination - 1)
+        self.puzzle.currentState.swap_blocks(position, destination - 1)
 
     def set_board(self, pattern):
         for i, p in enumerate(pattern):

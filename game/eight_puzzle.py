@@ -3,7 +3,7 @@ from random import shuffle
 
 import fibonacci_heap_mod as fh
 
-from State import State
+from game.state import State
 
 
 class EightPuzzle:
@@ -28,15 +28,15 @@ class EightPuzzle:
         start_time = time.time()
         visited = list(False for i in range(363000))
         queue = fh.Fibonacci_heap()
-        queue.enqueue(self.currentState, self.currentState.F())
+        queue.enqueue(self.currentState, self.currentState.f())
         visited[self.currentState.hash()] = True
         while True:
             current = queue.min().get_value()
             queue.dequeue_min()
-            if current.goalTest():
+            if current.goal_test():
                 fin_time = time.time()
                 return current, fin_time - start_time
-            suc = current.getSuccessors()
+            suc = current.get_successors()
             for s in suc:
                 if not visited[s.hash()]:
                     visited[s.hash()] = True
